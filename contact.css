@@ -1,0 +1,139 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+/* HEADER SECTION */
+.header {
+  min-height: 40vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(Image/background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-right: 0%;
+}
+.navbar-brand span {
+  color: white;
+}
+.navbar-brand img {
+  height: 30px;
+}
+.navbar-custom {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav {
+  margin-right: 6%;
+}
+.navbar-item {
+  padding: 1% 5%;
+  margin-bottom: 5px;
+}
+.navbar-item::after {
+  content: " ";
+  width: 0%;
+  display: block;
+  background-color: #e83a14;
+  height: 1px;
+  margin: auto;
+  transition: 0.5s;
+}
+.navbar-item:hover::after {
+  width: 100%;
+}
+.navbar-link {
+  text-decoration: none;
+  color: white;
+}
+.navbar-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* TITLE SECTION */
+.title {
+  color: #fff;
+  width: 80%;
+  margin: 5% auto;
+  text-align: center;
+}
+.title-head {
+  font-size: 2rem;
+  position: relative;
+  bottom: 10px;
+}
+
+/* CONTACT SECTION */
+.contact {
+  width: 80%;
+  margin: 1% auto;
+  text-align: center;
+  /* position: relative;
+    left:200px; */
+}
+/* INFO SECTION */
+.info {
+  width: 65%;
+  margin: auto;
+}
+.info-form {
+  background-color: rgba(196, 192, 192, 0.503);
+}
+.info-form-info {
+  width: 98%;
+  margin: 2% 0.9%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.info-form-info:hover {
+  border-left: 7px solid #e83a14;
+  padding: 0.1%;
+}
+.info-form-submit {
+  width: 20%;
+  padding: 1% 1.4%;
+  background-color: #e83a14;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  position: relative;
+  left: 40%;
+  margin-bottom: 1%;
+}
+.contact-info .fa {
+  color: #e83a14;
+  font-size: 150%;
+  margin: 2%;
+  position: relative;
+  bottom: 5px;
+}
+
+/* FOOTER SECTION  */
+.footer {
+  width: 80%;
+  padding: 8% 5% 1%;
+  margin: 0% auto;
+  text-align: center;
+}
+.footer-heading {
+  font-weight: 750;
+  font-size: 18px;
+  padding: 2%;
+}
+.footer-para {
+  font-size: 14px;
+  color: rgb(56, 56, 56);
+  font-weight: 400;
+}
+.footer-icon .fa {
+  padding: 2% 2%;
+  padding-bottom: 4%;
+}
+.footer-copy {
+  font-size: 12px;
+  color: rgb(129, 129, 129);
+  font-weight: 500;
+}
